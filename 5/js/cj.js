@@ -3,7 +3,7 @@ function chat()
 $.ajax({
                         type: "POST",
                         dataType: "json",
-                        url: "/Demo/caiji.php",
+                        url: "/caiji.php",
                         timeout: 30000, //ajax请求超时时间30秒    
                         data: {}, //40秒后无论结果服务器都返回数据    
 						success: function(data, textStatus) {
